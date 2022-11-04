@@ -18,6 +18,11 @@ a{
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 .container{
     max-width: 1230px;
     padding: 0 15px;
@@ -30,6 +35,7 @@ h1, h2, h3, h4, h5, h6, p{
     min-height: 100vh;
     background-position: center;
     position: relative;
+    margin-bottom: 80px;
 }
 .header::before{
     content: "";
@@ -49,7 +55,7 @@ h1, h2, h3, h4, h5, h6, p{
     content: "";
     position: absolute;
     background-image: url(../images/header-decor.svg);
-    bottom: 0;
+    bottom: -20px;
     left: 0;
     right: 0;
     height: 456px;
@@ -141,9 +147,10 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 145px;
     opacity: 0.3;
     font-family: 'Comfortaa';
+    z-index: 4;
 }
 .header__decor-text--two{
-    z-index: 4;
+    
     left: 265px;
     bottom: -40px;
 }
@@ -163,30 +170,91 @@ h1, h2, h3, h4, h5, h6, p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+    /* margin-top: 140px; */
 }
-.container {
-}
-.info__inner {
+.info::before{
+    content: "";
+    position: absolute;
+    height: 130px;
+    background-color:#262C27;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-120px);
+    z-index: 1;
 }
 .info__top {
+    display: flex;
+    gap: 80px;
+    padding-top: 100px;
+    margin-bottom: 65vh;
 }
 .info__top-text {
+    padding-top: 245px;
+    width: 290px;
+    color: #FFFFFF;
+    position: relative;
+}
+.info__top-text--one{
+    padding-bottom: 125px;
+}
+.info__top-text--two{
+    border-bottom: 1px solid white;
 }
 .popup-btn {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+   
+}
+.popup-btn span{
+    padding-top: 12px;
+    display: block;
+    color: #fff;
 }
 .info__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .info__top-img {
+    position: relative;
+    z-index: 6;
 }
 .info__specs {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 50px;
 }
 .info__specs-tittle {
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+    line-height: 67px;
+    width: 250px;
 }
 .info__specs-list {
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    padding: 30px 0;
+    width: 565px;
 }
 .info__specs-item {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 25px;
 }
 .info__specs-caption {
+    width: 185px;
 }
 .info__specs-text {
 }
