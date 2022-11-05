@@ -263,10 +263,11 @@ ul{
 .info__specs-caption {
     width: 185px;
 }
+
 /*? -----BUY------------------------------------- */
 
 .buy {
-    padding: 150px 0;
+    padding: 150px 0 0;
 }
 .buy__inner {
     display: flex;
@@ -338,9 +339,49 @@ ul{
     border-color: #B9C400;
     color: #262C27;
 }
-.buy__img {
-}
 
+/*? -----GALLERY------------------------------------- */
+
+.tehnology {
+    margin-bottom: 150px;
+}
+.tehnology__top {
+    background-image: url(../images/tech-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 110vh;
+}
+.tehnology__top-inner {
+}
+.tehnology__btn {
+    right: 350px;
+}
+.tehnology__tittle {
+}
+.tehnology__list {
+}
+.tehnology__list-item {
+}
+.gallery {
+}
+.gallery__inner {
+}
+.gallery__box {
+}
+.gallery__text {
+}
+.gallery-min {
+}
+.gallery-min__img {
+}
+.gallery-max {
+}
+.gallery-max__img {
+}
+.gallery-max__text {
+}
 
 
 
