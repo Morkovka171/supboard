@@ -456,7 +456,73 @@ img{
     align-items: center;
     text-align: center;
 }
-
+.footer {
+    padding: 100px 0 80px;
+    background-color: #262C27;
+    color: #fff;
+}
+.footer__top{
+    display: flex;
+    justify-content:space-between;
+}
+.footer__inner {
+}
+.footer__form {
+    max-width: 500px;
+}
+.footer__tittle {
+    margin-bottom: 27px;
+}
+.footer__form-input {
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    opacity: 0.4;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 57px;
+    color: #FFFFFF;
+}
+.footer__form-input::placeholder {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.footer__form-btn {
+    background-color: #FFFFFF;
+    padding: 10px 66px;
+    border: none;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+}
+.footer__social_tittle {
+    margin-bottom: 28px;
+    font-weight: 700;
+}
+.footer__gallery {
+    display: grid;
+    gap: 52px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+}
+.footer__gallery-item {
+}
+.footer__menu-list {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__menu_item {
+}
+.footer__menu_link {
+}
 
 
 
